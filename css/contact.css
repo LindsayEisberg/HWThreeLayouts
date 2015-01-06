@@ -36,3 +36,13 @@ section a:hover {
   color: #52C698;
   text-decoration: underline;
 }
+
+section img {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  margin-right: 350px;
+  margin-top: -70px;
+  padding-bottom: 20px;
+  border-radius: 5%;
+}
