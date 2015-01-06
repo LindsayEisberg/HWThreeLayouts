@@ -1,0 +1,105 @@
+body {
+  padding: 0;
+  margin: 0;
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+h1 {
+  font-family: 'Istok Web', sans-serif;
+  color: black;
+  font-size: 30px;
+}
+
+
+
+ /*NAV*/
+
+ nav li {
+   display: inline-block;
+
+ }
+
+ nav a {
+   font-family: 'Istok Web', sans-serif;
+   font-size: 18px;
+   display: block;
+   margin: 30px;
+   text-decoration: none;
+   color: black;
+ }
+
+nav a:hover {
+  font-family: 'Istok Web', sans-serif;
+  font-size: 18px;
+  color: #52C698;
+  text-decoration: underline;
+}
+
+.current {
+  font-family: 'Istok Web', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #52C698;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+.current:hover {
+  font-family: 'Istok Web', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #52C698;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/*layout*/
+
+.home_image {
+  display: block;
+  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+}
+
+article {
+  vertical-align: top;
+  margin-left: 30%;
+  margin-right: 30%;
+
+
+}
+
+.landing_bottom1 {
+  width: 60%;
+  display: inline-block;
+
+
+}
+
+.landing_bottom2 {
+  width: 22%;
+  display: inline-block;
+  float: right;
+
+
+}
+
+article a {
+  text-decoration: none;
+  color: black;
+
+}
+
+article a:hover {
+  color: #52C698;
+  text-decoration: underline;
+}
