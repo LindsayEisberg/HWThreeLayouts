@@ -11,12 +11,15 @@ ul {
 }
 
 h1 {
-  font-family: 'Istok Web', sans-serif;
+  font-family: 'Tinos', serif;
   color: black;
-  font-size: 30px;
+  font-size: 45px;
 }
 
-
+h3 {
+  font-family: 'Poiret One', cursive;
+  color: #52C698;
+}
 
  /*NAV*/
 
@@ -26,7 +29,7 @@ h1 {
  }
 
  nav a {
-   font-family: 'Istok Web', sans-serif;
+   font-family: 'Poiret One', cursive;
    font-size: 18px;
    display: block;
    margin: 30px;
@@ -35,14 +38,14 @@ h1 {
  }
 
 nav a:hover {
-  font-family: 'Istok Web', sans-serif;
+  font-family: 'Poiret One', cursive;
   font-size: 18px;
   color: #52C698;
   text-decoration: underline;
 }
 
 .current {
-  font-family: 'Istok Web', sans-serif;
+  font-family: 'Poiret One', cursive;
   font-size: 18px;
   color: #ffffff;
   background-color: #52C698;
@@ -52,7 +55,7 @@ nav a:hover {
 }
 
 .current:hover {
-  font-family: 'Istok Web', sans-serif;
+  font-family: 'Poiret One', cursive;
   font-size: 18px;
   color: #ffffff;
   background-color: #52C698;
