@@ -16,7 +16,7 @@ h1 {
   font-size: 45px;
 }
 
-h3 {
+h2, h3 {
   font-family: 'Poiret One', cursive;
   color: #52C698;
 }
@@ -35,6 +35,8 @@ h3 {
    margin: 30px;
    text-decoration: none;
    color: black;
+   vertical-align: middle;
+   width: 100px;
  }
 
 nav a:hover {

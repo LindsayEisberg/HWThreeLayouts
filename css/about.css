@@ -1,0 +1,33 @@
+nav {
+  width: 20%;
+  margin-left: 20px;
+}
+
+nav ul {
+  width: 10%;
+}
+
+nav a {
+  vertical-align: middle;
+  text-align: center;
+}
+
+header {
+  padding:10px;
+}
+
+nav, section, aside {
+  display: inline-block;
+  vertical-align: top;
+
+}
+section {
+  width: 50%;
+  margin-left: 20px;
+}
+
+aside {
+  width: 20%;
+  float: right;
+  margin-right: 20px;
+}
