@@ -1,22 +1,17 @@
-/**ABOUT**/
-
-/* * {
-border: 1px dashed black;
-} */
+$green_color: #52C698;
 
 nav {
   width: 20%;
   margin-left: 20px;
+  & ul{
+    width: 10%;
+  }
+  & a {
+    vertical-align: middle;
+    text-align: center;
+  }
 }
 
-nav ul {
-  width: 10%;
-}
-
-nav a {
-  vertical-align: middle;
-  text-align: center;
-}
 
 header {
   padding:10px;
@@ -36,16 +31,15 @@ aside {
   width: 20%;
   float: right;
   margin-right: 20px;
+  & img {
+    background-color: black;
+    border-radius: 10px;
+    &:hover {
+      background-color: $green_color;
+    }
+  }
 }
 
-aside img {
-  background-color: black;
-  border-radius: 10px;
-}
-
-aside img:hover {
-  background-color: #52C698;
-}
 
 p img {
   border-radius: 15px;

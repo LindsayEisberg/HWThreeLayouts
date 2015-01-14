@@ -22,7 +22,7 @@ p {
   font-size: 16px; }
 
 /*NAV*/
-.current {
+.current, .current:hover {
   font-family: 'Poiret One', cursive;
   font-size: 18px;
   color: #ffffff;
@@ -31,42 +31,32 @@ p {
   padding: 10px; }
 
 .current:hover {
-  font-family: 'Poiret One', cursive;
-  font-size: 18px;
-  color: #ffffff;
-  background-color: #52C698;
-  border-radius: 10px;
-  padding: 10px;
   text-decoration: none; }
 
 nav {
   width: 900px;
   margin: auto; }
-
-nav ul {
-  width: 550px;
-  margin: auto; }
-
-nav li {
-  display: inline-block;
-  margin: auto;
-  text-align: center; }
-
-nav a {
-  font-family: 'Poiret One', cursive;
-  font-size: 18px;
-  display: block;
-  margin: 30px;
-  text-decoration: none;
-  color: black;
-  vertical-align: middle;
-  width: 100px; }
-
-nav a:hover {
-  font-family: 'Poiret One', cursive;
-  font-size: 18px;
-  color: #52C698;
-  text-decoration: underline; }
+  nav ul {
+    width: 550px;
+    margin: auto; }
+  nav li {
+    display: inline-block;
+    margin: auto;
+    text-align: center; }
+  nav a {
+    font-family: 'Poiret One', cursive;
+    font-size: 18px;
+    display: block;
+    margin: 30px;
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+    width: 100px; }
+    nav a:hover {
+      font-family: 'Poiret One', cursive;
+      font-size: 18px;
+      color: #52C698;
+      text-decoration: underline; }
 
 header nav {
   display: none; }

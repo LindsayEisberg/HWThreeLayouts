@@ -1,3 +1,7 @@
+$green_color: #52C698;
+$sub_head_font: 'Poiret One', cursive;
+$main_font: 'Tinos', serif;
+
 
 body {
   padding: 0;
@@ -12,41 +16,36 @@ ul {
 }
 
 h1 {
-  font-family: 'Tinos', serif;
+  font-family: $main_font;
   color: black;
   text-align: center;
   font-size: 45px;
 }
 
 h2, h3 {
-  font-family: 'Poiret One', cursive;
-  color: #52C698;
+  font-family: $sub_head_font;
+  color: $green_color;
 }
 
 p {
-  font-family: 'Tinos', serif;
+  font-family: $main_font;
   font-size: 16px;
 }
 /*NAV*/
 
 
 .current {
-  font-family: 'Poiret One', cursive;
+  font-family: $sub_head_font;
   font-size: 18px;
   color: #ffffff;
-  background-color: #52C698;
+  background-color: $green_color;
   border-radius: 10px;
   padding: 10px;
 
 }
 
 .current:hover {
-  font-family: 'Poiret One', cursive;
-  font-size: 18px;
-  color: #ffffff;
-  background-color: #52C698;
-  border-radius: 10px;
-  padding: 10px;
+  @extend .current;
   text-decoration: none;
 }
 
@@ -55,37 +54,33 @@ p {
 nav {
   width: 900px;
   margin: auto;
+  & ul {
+    width: 550px;
+    margin: auto;
+  }
+  & li {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+  }
+  & a{
+    font-family: $sub_head_font;
+    font-size: 18px;
+    display: block;
+    margin: 30px;
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+    width: 100px;
+    &:hover{
+      font-family: $sub_head_font;
+      font-size: 18px;
+      color: $green_color;
+      text-decoration: underline;
+    }
+  }
 }
 
-nav ul {
-  width: 550px;
-  margin: auto;
-}
-
-nav li {
-  display: inline-block;
-  margin: auto;
-  text-align: center;
-
-}
-
-nav a {
-  font-family: 'Poiret One', cursive;
-  font-size: 18px;
-  display: block;
-  margin: 30px;
-  text-decoration: none;
-  color: black;
-  vertical-align: middle;
-  width: 100px;
-}
-
-nav a:hover {
-  font-family: 'Poiret One', cursive;
-  font-size: 18px;
-  color: #52C698;
-  text-decoration: underline;
-}
 
 header nav {
   display: none;
@@ -134,6 +129,6 @@ article a {
 }
 
 article a:hover {
-  color: #52C698;
+  color: $green_color;
   text-decoration: underline;
 }
