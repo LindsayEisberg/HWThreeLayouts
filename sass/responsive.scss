@@ -2,12 +2,15 @@
 
     h1 {
       font-size: 2.5em;
+      margin-top: 20px;
+      margin-bottom: 5px;
     }
 
     section {
       max-width: 500px;
       width: 100%;
       margin: auto;
+      padding-left: 5px;
     }
 
    .home_image {
@@ -16,7 +19,15 @@
 
     section p{
       clear: both;
+      max-width: 480px;
+      width: 100%;
+      margin: auto;
 
+    }
+
+    header {
+      padding: 0;
+      margin: 0;
     }
 
     header nav {
@@ -46,34 +57,98 @@
       padding-left: 0;
     &:hover {
       border-radius:0%;
+      padding-left: 0;
+
     }
     }
 
-/*header nav ul {
-  max-width: 500px;
-  width: 100%;
-  margin: auto;
-}
+    article {
+      max-width: 480px;
+      width: 100%;
+      margin: auto;
+    }
 
-header nav li {
-  display: inline;
-}
+    .landing_bottom1{
+      max-width: 480px;
+      width: 100%;
+      margin: auto;
+      display: block;
+      padding-left: 10px;
+    }
 
-header nav a {
-  width: 100%;
+    .landing_bottom2{
 
-}*/
+      @extend .landing_bottom1;
+      float: none;
+    }
+
 
     footer nav {
       display: none;
     }
 
 
+/*ABOUT THE MUSIC PAGE*/
 
+    nav {
+      display: none;
+      vertical-align: baseline;
+      margin-left: 0;
+    }
 
+    p img {
+      max-width: 480px;
+      width: 95%;
+      margin: 20px auto;
+    }
 
+    aside {
+      max-width: 500px;
+      width: 100%;
+      margin: auto;
+      float: none;
+      display: block;
+      & p {
+        max-width: 480;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+      }
+      & h3{
+        font-size: 1.5em;
+        padding-left: 5px;
+      }
+      & a {
+        display: inline-block;
+      & img{
+        display: block;
+        max-width: 48px;
+        width: 100%;
+      }
+    }
+  }
 
+/*CONTACT*/
 
+.contact {
+  float: none;
+  clear: both;
+  & p{
+    padding-bottom: 20px;
+    max-width: 480;
+    margin: auto;
+  }
+
+  & img {
+    padding: 0 0 20px 0;
+    max-width: 450px;
+    width: 95%;
+    margin: auto;
+    display: block;
+    float: none;
+}
+
+}
 
 
 }

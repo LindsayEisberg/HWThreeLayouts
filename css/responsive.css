@@ -1,14 +1,23 @@
 @media screen and (max-width: 500px) {
   h1 {
-    font-size: 2.5em; }
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-bottom: 5px; }
   section {
     max-width: 500px;
     width: 100%;
-    margin: auto; }
+    margin: auto;
+    padding-left: 5px; }
   .home_image {
     width: 95%; }
   section p {
-    clear: both; }
+    clear: both;
+    max-width: 480px;
+    width: 100%;
+    margin: auto; }
+  header {
+    padding: 0;
+    margin: 0; }
   header nav {
     width: 100%;
     display: inline; }
@@ -27,20 +36,63 @@
     border-radius: 0%;
     padding-left: 0; }
     .current:hover {
-      border-radius: 0%; }
-  /*header nav ul {
-  max-width: 500px;
-  width: 100%;
-  margin: auto;
-}
-
-header nav li {
-  display: inline;
-}
-
-header nav a {
-  width: 100%;
-
-}*/
+      border-radius: 0%;
+      padding-left: 0; }
+  article {
+    max-width: 480px;
+    width: 100%;
+    margin: auto; }
+  .landing_bottom1, .landing_bottom2 {
+    max-width: 480px;
+    width: 100%;
+    margin: auto;
+    display: block;
+    padding-left: 10px; }
+  .landing_bottom2 {
+    float: none; }
   footer nav {
-    display: none; } }
+    display: none; }
+  /*ABOUT THE MUSIC PAGE*/
+  nav {
+    display: none;
+    vertical-align: baseline;
+    margin-left: 0; }
+  p img {
+    max-width: 480px;
+    width: 95%;
+    margin: 20px auto; }
+  aside {
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    float: none;
+    display: block; }
+    aside p {
+      max-width: 480;
+      width: 100%;
+      margin: auto;
+      text-align: center; }
+    aside h3 {
+      font-size: 1.5em;
+      padding-left: 5px; }
+    aside a {
+      display: inline-block; }
+      aside a img {
+        display: block;
+        max-width: 48px;
+        width: 100%; }
+  /*CONTACT*/
+  .contact {
+    float: none;
+    clear: both; }
+    .contact p {
+      padding-bottom: 20px;
+      max-width: 480;
+      margin: auto; }
+    .contact img {
+      padding: 0 0 20px 0;
+      max-width: 450px;
+      width: 95%;
+      margin: auto;
+      display: block;
+      float: none; } }
