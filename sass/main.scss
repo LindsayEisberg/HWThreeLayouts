@@ -1,34 +1,43 @@
 body {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+
+}
 
 ul {
   margin: 0;
   padding: 0;
-  list-style-type: none; }
+  list-style-type: none;
+}
 
 h1 {
   font-family: 'Tinos', serif;
   color: black;
   text-align: center;
-  font-size: 45px; }
+  font-size: 45px;
+}
 
 h2, h3 {
   font-family: 'Poiret One', cursive;
-  color: #52C698; }
+  color: #52C698;
+}
 
 p {
   font-family: 'Tinos', serif;
-  font-size: 16px; }
-
+  font-size: 16px;
+}
 /*NAV*/
+
+
 .current {
   font-family: 'Poiret One', cursive;
   font-size: 18px;
   color: #ffffff;
   background-color: #52C698;
   border-radius: 10px;
-  padding: 10px; }
+  padding: 10px;
+
+}
 
 .current:hover {
   font-family: 'Poiret One', cursive;
@@ -37,20 +46,27 @@ p {
   background-color: #52C698;
   border-radius: 10px;
   padding: 10px;
-  text-decoration: none; }
+  text-decoration: none;
+}
+
+
 
 nav {
   width: 900px;
-  margin: auto; }
+  margin: auto;
+}
 
 nav ul {
   width: 550px;
-  margin: auto; }
+  margin: auto;
+}
 
 nav li {
   display: inline-block;
   margin: auto;
-  text-align: center; }
+  text-align: center;
+
+}
 
 nav a {
   font-family: 'Poiret One', cursive;
@@ -60,44 +76,63 @@ nav a {
   text-decoration: none;
   color: black;
   vertical-align: middle;
-  width: 100px; }
+  width: 100px;
+}
 
 nav a:hover {
   font-family: 'Poiret One', cursive;
   font-size: 18px;
   color: #52C698;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 header nav {
-  display: none; }
+  display: none;
+}
+
 
 /*layout*/
+
 .home_image {
   display: block;
   border-radius: 10px;
   width: 50%;
-  height: 50%; }
+  height: 50%;
+}
 
 article {
   vertical-align: top;
   margin-left: 30%;
-  margin-right: 30%; }
+  margin-right: 30%;
+
+
+}
 
 .landing_bottom1, .landing_bottom2 {
   vertical-align: top;
-  display: inline-block; }
+  display: inline-block;
+}
 
 .landing_bottom1 {
-  width: 55%; }
+  width: 55%;
+
+
+}
 
 .landing_bottom2 {
   width: 28%;
-  float: right; }
+  float: right;
+
+
+}
 
 article a {
   text-decoration: none;
-  color: black; }
+  color: black;
+
+}
 
 article a:hover {
   color: #52C698;
-  text-decoration: underline; }
+  text-decoration: underline;
+}

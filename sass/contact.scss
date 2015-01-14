@@ -1,33 +1,43 @@
 /**CONTACT**/
+
 nav {
   width: 20%;
-  margin-left: 20px; }
+  margin-left: 20px;
+}
 
 nav ul {
-  width: 10%; }
+  width: 10%;
+}
 
 nav a {
   vertical-align: middle;
-  text-align: center; }
+  text-align: center;
+}
 
 header {
-  padding: 10px; }
+  padding:10px;
+}
 
 nav, section {
   display: inline-block;
-  vertical-align: top; }
+  vertical-align: top;
 
+}
 section {
   width: 70%;
-  margin-left: 20px; }
+  margin-left: 20px;
+}
 
 section a {
   text-decoration: none;
-  color: #52C698; }
+  color: #52C698;
+
+}
 
 section a:hover {
   color: #52C698;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 section img {
   display: inline-block;
@@ -36,4 +46,5 @@ section img {
   margin-right: 20px;
   margin-top: -70px;
   padding-bottom: 20px;
-  border-radius: 5%; }
+  border-radius: 5%;
+}
